@@ -10,7 +10,7 @@
 /**
  * An array of arguments + the next function
  */
-export type MiddlewareArgs = any[]
+export type MiddlewareArgs = [any, () => any]
 
 /**
  * The middleware actual function
